@@ -6,11 +6,11 @@
 // - Si es divisible por ambos, imprime "Fizzbuzz" (con "b" minúscula)
 // - Si no, imprime el número
 
-console.log("=== Juego frizzBuzz");
+// console.log("=== Juego frizzBuzz");
 
 for (let i = 1; i <= 1000; i++) {
   // Logica
-  if (i % 3 && i % 5 === 0) {
+  if (i % 3 === 0 && i % 5 === 0) {
     console.log("Fizzbuzz");
   } else if (i % 3 === 0) {
     console.log("Fizz");
